@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page2</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0%;
+        }
+        
+        header{
+            display: flex;
+            gap: 260px;
+            align-items:center;
+            position: relative;
+            padding: 20px;
+        }
+        nav{
+            margin-top: 10px;
+            
+        }
+        .bar {
+            display: inline;
+        }
+        .bar a{
+            text-decoration: none;
+            list-style-type:none ;
+            color: black;
+            text-transform: uppercase;
+            font-size: 1.1em;
+            font-weight: bolder;
+            margin-left: 20px;
+            border-bottom: 2px solid transparent;
+            transition: 0.3s smooth;
+
+        }
+        .bar a:hover{
+            border-bottom: 2px solid aquamarine;
+            border-left: 2px solid aquamarine;
+        }
+        .hero-section{
+            display: flex;
+            padding: 30px;
+            background-color: rgb(226, 252, 245);
+            border: 2px solid black;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .hero-text{
+            text-align: center;
+            margin: 10px 20px 10px 20px;
+        }
+        button{
+            padding: 12px 12px;
+            border-radius: 15px;
+            border: none;
+            background-color: rgb(67, 175, 238);
+            color: white;
+        }
+        .image img{
+            border-radius: 20px;
+            height: 300px;
+            width: 80%;
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+        h2{
+            margin-top: 10px;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bolder;
+
+        }
+        p{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        span{
+            color: rgb(75,170,138);
+        }
+        .layout{
+            padding: 40px;
+        }
+        .layouts{
+            display: flex;
+            position: relative;
+            gap: 10px;
+            
+        }
+        .relative{
+            padding: 20px; 
+            gap: 30px;
+            border: 0.5px solid black;
+            background-color: rgb(250, 240, 228);
+        }
+        .zindex{
+            height: 300px;
+            background-color: rgba(137, 253, 214, 0.705);
+            padding: 30px;
+            margin-left: 10px;
+        }
+
+        footer{
+            display: flex;
+            height: 40px;
+            margin-top: 30px;
+            gap: 280px;
+            background-color: rgb(220, 218, 218);
+        }
+       .nav2{
+        margin-top: 0px;
+       }
+       .zindex{
+        border-radius: 20px;
+       }
+       .zindex .imgrel{
+        display: flex;
+        position: relative;
+        gap: 40px;
+        margin-left: 75px;
+
+       }
+       .imgrel{
+        position: relative;
+        top: 50px;
+       }
+        
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h2><span style="color: rgb(75, 170, 138);">Developers</span> Hub <span style="color: rgb(16, 16, 255); font-weight: bolder;">_</span></h2>
+        <nav>
+            <li class="bar"><a href="#">Home</a></li>
+            <li class="bar"><a href="#">About</a></li>
+            <li class="bar"><a href="#">Services</a></li>
+            <li class="bar"><a href="#">Contact</a></li>       
+        </nav>
+        <div class="btn">
+            <button>Sign Up</button>
+        </div>
+    </header>
+    <hr>
+    <main>
+        <div class="hero-section">
+            <div class="imgg">
+                <img src="images/helloworld.jpg" height="200px" style="border-radius: 30px;">
+            </div>
+            <div class="hero-text">
+        
+                <h2>We are <span>Developers. </span></h2> </h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis cupiditate, laborum non harum deserunt inventore nihil ab quod eaque necessitatibus rem debitis saepe doloremque illo voluptate officiis magnam commodi quae cumque nesciunt? Porro explicabo necessitatibus voluptatum nostrum iste accusamus ad.</p>
+                <button>More...</button>
+            </div>
+            <div>
+                <img src="images/webdeveloper.jpg" height="200px" style="border-radius: 10px;">
+            </div>
+        </div>
+        <section>
+            <div class="About">
+                <h2>About <span>Developers</span> Hub</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas voluptates at unde laboriosam quam non laudantium soluta iure, reiciendis consequuntur illum quos aspernatur provident similique totam, deserunt quo odit.</p>
+                <div class="image">
+                    <img src="images/aboutwebdeveloprs.jpg" >
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="developers">
+                <h2>Our <span>Developers</span></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum molestias beatae deleniti incidunt aliquam mollitia praesentium distinctio veritatis voluptatum error, ut maxime atque quidem soluta iste dolor dolores officiis pariatur tenetur sit impedit officia similique, ipsum iure. Cupiditate, labore ut.</p>
+            </div>
+            <div class="image">
+                <img src="images/webdevlprs.jpg" height="100px" width="100px">
+            </div>
+        </section>
+        <section>
+            <div class="layout">
+                    <h2>How to become a partner<span>__</span>
+                    </h2>
+                    <div class="layouts">
+                        <div class="relative">
+                            <img src="images/fill (1).png" height="20px" style="margin-bottom: 10px;">
+                            <h3>Fill The Form</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, quia.</p>
+                        </div>
+                        <div class="relative">
+                            <img src="images/proposal.png" height="20px" style="margin-bottom: 10px;">
+                            <h3>Send Your Proposal</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, tenetur!</p>
+                        </div>
+                        <div class="relative">
+                            <img src="images/meeting.png" height="20px" style="margin-bottom: 10px;">
+                            <h3>Cooperation Meeting</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, possimus.</p>
+                        </div>
+                        <div class="relative">
+                            <img src="images/become.png" height="20px" style="margin-bottom: 10px;">
+                            <h3>Becoming Official Partner</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, commodi!</p>
+                        </div>
+                    </div>
+                
+            </div>
+        </section>
+        <section>
+            <h2>Our Services</h2>
+            <div class="zindex">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In quas ab vitae consequatur necessitatibus? Quo, vel. Placeat necessitatibus laborum rem ratione, delectus recusandae sequi inventore ipsum corrupti tempore ea sapiente voluptatum cupiditate sint accusantium suscipit magni praesentium autem eos nesciunt?</p>
+                <ol>
+                    <li>Lorem.</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ol>
+                <div class="imgrel">
+                    <div class="zimage">
+                        <img src="images/our services.jpeg" height="140px" style="border-style: outset;border-width: 3px; border-color: black; margin-top: 8px;">
+                    </div>
+                    <div class="zzimage">
+                        <img src="images/services2.jpeg" height="140px" style="border-style: outset;border-width: 3px; border-color: black; margin-top: 8px;">
+                    </div>
+                    <div class="zzzimage">
+                        <img src="images/services3.jpeg" height="140px" style="border-style: outset;border-width: 3px; border-color: black; margin-top: 8px;">
+                    </div>
+                    <div class="zzzzimage">
+                        <img src="images/services4.jpeg" height="140px" style="border-style: outset;border-width: 3px; border-color: black; margin-top: 8px;">
+                    </div> 
+                </div> 
+                
+            </div>
+            
+        </section>
+        <br>
+        <br>
+
+
+        
+    </main>
+    <footer>
+        <div class="footer1">
+            <h2>
+                <span style="color: rgb(75, 170, 138);">Developers</span> Hub <span style="color: rgb(16, 16, 255); font-weight: bolder;">_</span>
+            </h2>
+        </div>
+        <div class="nav2">
+            <nav>
+                <li class="bar"><a href="#">Home</a></li>
+                <li class="bar"><a href="#">About</a></li>
+                <li class="bar"><a href="#">Services</a></li>
+                <li class="bar"><a href="#">Contact</a></li>       
+            </nav>
+            
+        </div>
+        <div class="btn">
+            <button>Sign Up</button>
+        </div>
+
+    </footer>
+</body>
+</html>
